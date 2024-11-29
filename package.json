@@ -11,7 +11,8 @@
     "format:fix": "turbo format --continue -- --write",
     "lint": "turbo lint --continue --",
     "lint:fix": "turbo lint --continue -- --apply",
-    "clean": "turbo clean"
+    "clean": "turbo clean",
+    "packages": "pnpm --filter=@pack/*"
   },
   "dependencies": {
     "@changesets/changelog-github": "^0.5.0",
@@ -21,5 +22,6 @@
   "devDependencies": {
     "@biomejs/biome": "^1.7.2",
     "postcss": "^8.4.27"
-  }
+  },
+  "packageManager": "pnpm@9.12.2+sha256.2ef6e547b0b07d841d605240dce4d635677831148cd30f6d564b8f4f928f73d2"
 }
